@@ -1,5 +1,3 @@
-// sandbox2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 #include <string>
@@ -116,7 +114,7 @@ public:
 			cout << endl;
 			cout << war2.name << " is victorious!" << endl;
 			cout << war2.name << " has " << war2.health << " health left." << endl;
-			cout << "You DIED.";
+			cout << "YOU DIED!";
 			cout << endl;
 		}
 	}
@@ -132,7 +130,7 @@ int main()
 	int xspd1;
 	
 	int xstr2;
-	int xspd2;
+	//int xspd2;
 
 	string rdy;
 	string wpn;
@@ -296,7 +294,7 @@ int main()
 		cin >> rdy;
 		if (rdy == "Yes" || rdy == "yes" || rdy == "Y" || rdy == "y" || rdy == "Ready" || rdy == "ready")
 		{
-			again == true;
+			again = true;
 			Battle battle;
 			battle.fight(war1, war2);
 			round += 1;
