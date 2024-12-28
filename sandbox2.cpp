@@ -116,6 +116,7 @@ public:
 			cout << endl;
 			cout << war2.name << " is victorious!" << endl;
 			cout << war2.name << " has " << war2.health << " health left." << endl;
+			cout << "You DIED.";
 			cout << endl;
 		}
 	}
